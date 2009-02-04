@@ -60,7 +60,7 @@ Real World Example: [dustin.github.com](http://github.com/dustin/dustin.github.c
 CNAME Support
 =============
 
-If you have a paid account or one of the collaborators on your repository has a piad account, GitHub Pages allows you to direct a domain name of your choice at your Page.
+If you have a paid account or one of the collaborators on your repository has a paid account, GitHub Pages allows you to direct a domain name of your choice at your Page.
 
 Let's say you own the domain name [example.com](http://example.com). Furthermore, your GitHub username is "charlie" and you have published a User Page at [http://charlie.github.com/](http://charlie.github.com/). Now you'd like to load up [http://example.com/](http://example.com) in your browser and have it show the content from [http://charlie.github.com/](http://charlie.github.com/).
 
