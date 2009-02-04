@@ -55,7 +55,7 @@ We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.4.0</spa
 
 If there's a feature you wish that Jekyll had, feel free to fork it and send a pull request. We're happy to accept user contributions.
 
-Real World Example: [dustin.github.com](http://github.com/dustin/dustin.github.com/) &rarr; [http://dustin.github.com/](http://dustin.github.com/).
+Real World Example: [pages.github.com](http://github.com/pages/pages.github.com/) &rarr; [http://pages.github.com/](http://pages.github.com/).
 
 CNAME Support
 =============
