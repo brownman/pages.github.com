@@ -49,7 +49,7 @@ Every GitHub Page is run through Jekyll when you push content to your repo. Beca
 
 If your Jekyll site is not transforming properly after you push it to GitHub, it's useful to run the converter locally so you can see any parsing errors. In order to do this, you'll want to use the same version that we use.
 
-We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.4.0</span> and run it as follows:
+We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.4.1</span> and run it as follows:
 
     jekyll --pygments
 
