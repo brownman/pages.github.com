@@ -47,9 +47,16 @@ In addition to supporting regular HTML content, GitHub Pages support [Jekyll](ht
 
 Every GitHub Page is run through Jekyll when you push content to your repo. Because a normal HTML site is also a valid Jekyll site, you don't have to do anything special to keep your standard HTML files unchanged. Jekyll has a thorough [README](http://github.com/mojombo/jekyll/blob/master/README.textile) that covers its features and usage.
 
+As of April 7, 2009, you can configure most Jekyll settings via your `_config.yml` file. Most notably, you can select your permalink style and choose to have your Markdown rendered with RDiscount instead of the default Maruku. The only options we override are as follows:
+
+    source: <your pages repo>
+    destination: <the build dir>
+    lsi: false
+    pygments: true
+
 If your Jekyll site is not transforming properly after you push it to GitHub, it's useful to run the converter locally so you can see any parsing errors. In order to do this, you'll want to use the same version that we use.
 
-We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.4.1</span> and run it as follows:
+We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.5.0</span> and run it with the equivalent command:
 
     jekyll --pygments
 
