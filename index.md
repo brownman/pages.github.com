@@ -86,4 +86,4 @@ Custom 404 Pages
 
 If you provide a `404.html` file in the root of your repo, it will be served instead of the default 404 page.  Note that Jekyll-generated pages will not work, it <i>must</i> be an html file.
 
-Real World Example: [tekkub.net/missing_page](http://tekkub.net/missing_page) <i>Warning: not safe for work if PG-13 movies offend your boss.</i>
+Real World Example: [http://github.com/tekkub/tekkub.github.com/blob/master/404.html](http://github.com/tekkub/tekkub.github.com/blob/master/404.html) &rarr; [http://tekkub.net/404.html](http://tekkub.net/404.html).
