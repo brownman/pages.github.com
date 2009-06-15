@@ -80,3 +80,10 @@ Push this new file up to GitHub.
 Next, you'll need to visit your domain registrar or DNS host and add a CNAME record for your domain name. In this example, you would point [example.com](http://example.com) at [charlie.github.com](http://charlie.github.com/). It may take up to a full day for this change to propagate, so be patient.
 
 Real World Example: [github.com/mojombo/mojombo.github.com](http://github.com/mojombo/mojombo.github.com/) &rarr; [http://tom.preston-werner.com/](http://tom.preston-werner.com/).
+
+Custom 404 Pages
+================
+
+If you provide a `404.html` file in the root of your repo, it will be served instead of the default 404 page.  Note that Jekyll-generated pages will not work, it <i>must</i> be an html file.
+
+Real World Example: [http://github.com/tekkub/tekkub.github.com/blob/master/404.html](http://github.com/tekkub/tekkub.github.com/blob/master/404.html) &rarr; [http://tekkub.net/404.html](http://tekkub.net/404.html).
