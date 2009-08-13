@@ -40,6 +40,26 @@ On the first push, it can take up to ten minutes before the content is available
 
 Real World Example: [github.com/defunkt/ambition@gh-pages](http://github.com/defunkt/ambition/tree/gh-pages) &rarr; [http://defunkt.github.com/ambition](http://defunkt.github.com/ambition).
 
+### Project Page Generator
+
+If you don't want to go through the steps above to generate your branch, or you simply would like a generic page, you can use our page generator to create your gh-pages branch for you and fill it with a default page.
+
+![Page generator](page_generator.jpg)
+
+After your page is generated, you can check out the new branch:
+
+    $ cd Repos/ampere
+    $ git fetch origin
+    remote: Counting objects: 92, done.
+    remote: Compressing objects: 100% (63/63), done.
+    remote: Total 68 (delta 41), reused 0 (delta 0)
+    Unpacking objects: 100% (68/68), done.
+    From git@github.com:tekkub/ampere
+     * [new branch]      gh-pages     -> origin/gh-pages
+    $ git checkout -b gh-pages origin/gh-pages
+    Branch gh-pages set up to track remote branch refs/remotes/origin/gh-pages.
+    Switched to a new branch "gh-pages"
+
 Using Jekyll For Complex Layouts
 ================================
 
