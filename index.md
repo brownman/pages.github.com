@@ -24,17 +24,17 @@ Let's say your GitHub username is "bob" and you have an existing repository name
 
 In order to create a new root branch, first ensure that your working directory is clean by committing or stashing any changes. <span style="color: #a00;">The following operation will lose any uncommitted changes!</span>
 
-    cd /path/to/fancypants
-    git symbolic-ref HEAD refs/heads/gh-pages
-    rm .git/index
-    git clean -fdx
+    $ cd /path/to/fancypants
+    $ git symbolic-ref HEAD refs/heads/gh-pages
+    $ rm .git/index
+    $ git clean -fdx
 
 After running this you'll have an empty working directory (don't worry, your main repo is still on the `master` branch). Now you can create some content in this branch and push it to GitHub. For example:
 
-    echo "My GitHub Page" > index.html
-    git add .
-    git commit -a -m "First pages commit"
-    git push origin gh-pages
+    $ echo "My GitHub Page" > index.html
+    $ git add .
+    $ git commit -a -m "First pages commit"
+    $ git push origin gh-pages
 
 On the first push, it can take up to ten minutes before the content is available.
 
