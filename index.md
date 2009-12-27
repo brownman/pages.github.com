@@ -80,6 +80,8 @@ We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.5.4</spa
 
     jekyll --pygments
 
+As of December 27, 2009, you can completely opt-out of Jekyll processing by creating a file named `.nojekyll` in the root of your pages repo and pushing that to GitHub. This should only be necessary if your site uses directories that begin with an underscore, as Jekyll sees these as special dirs and does not copy them to the final destination.
+
 If there's a feature you wish that Jekyll had, feel free to fork it and send a pull request. We're happy to accept user contributions.
 
 Real World Example: [github.com/pages/pages.github.com](http://github.com/pages/pages.github.com/) &rarr; [http://pages.github.com/](http://pages.github.com/).
