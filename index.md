@@ -86,8 +86,8 @@ If there's a feature you wish that Jekyll had, feel free to fork it and send a p
 
 Real World Example: [github.com/pages/pages.github.com](http://github.com/pages/pages.github.com/) &rarr; [http://pages.github.com/](http://pages.github.com/).
 
-CNAME Support
-=============
+Custom Domains
+==============
 
 If you or one of the collaborators on your repository have a paid account, GitHub Pages allows you to direct a domain name of your choice at your Page.
 
