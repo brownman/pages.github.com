@@ -97,9 +97,9 @@ Start by creating a file named `CNAME` in the root of your repository. It should
 
     example.com
 
-Push this new file up to GitHub.
+Push this new file up to GitHub.  The server will set your pages to be hosted at [example.com](http://example.com), and create redirects from [www.example.com](http://www.example.com) and [http://charlie.github.com/](http://charlie.github.com/) to [example.com](http://example.com).
 
-Next, you'll need to visit your domain registrar or DNS host and add a CNAME record for your domain name. In this example, you would point [example.com](http://example.com) at [charlie.github.com](http://charlie.github.com/). It may take up to a full day for this change to propagate, so be patient.
+Next, you'll need to visit your domain registrar or DNS host and add a record for your domain name. For a sub-domain like `www.example.com` you would simply create a CNAME record pointing at `charlie.github.com`.  If you are using a top-level domain like `example.com`, you must use an A record pointing to `207.97.227.245`.  *Do not use a CNAME record with a top-level domain,* it can have adverse side effects on other services like email.  Many DNS services will let you set a CNAME on a TLD, even though you shouldn't.  Remember that it may take up to a full day for DNS changes to propagate, so be patient.
 
 Real World Example: [github.com/mojombo/mojombo.github.com](http://github.com/mojombo/mojombo.github.com/) &rarr; [http://tom.preston-werner.com/](http://tom.preston-werner.com/).
 
