@@ -69,6 +69,7 @@ Every GitHub Page is run through Jekyll when you push content to your repo. Beca
 
 As of April 7, 2009, you can configure most Jekyll settings via your `_config.yml` file. Most notably, you can select your permalink style and choose to have your Markdown rendered with RDiscount instead of the default Maruku. The only options we override are as follows:
 
+    safe: true
     source: <your pages repo>
     destination: <the build dir>
     lsi: false
@@ -76,9 +77,9 @@ As of April 7, 2009, you can configure most Jekyll settings via your `_config.ym
 
 If your Jekyll site is not transforming properly after you push it to GitHub, it's useful to run the converter locally so you can see any parsing errors. In order to do this, you'll want to use the same version that we use.
 
-We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.5.7</span> and run it with the equivalent command:
+We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.6.0</span> and run it with the equivalent command:
 
-    jekyll --pygments
+    jekyll --pygments --safe
 
 As of December 27, 2009, you can completely opt-out of Jekyll processing by creating a file named `.nojekyll` in the root of your pages repo and pushing that to GitHub. This should only be necessary if your site uses directories that begin with an underscore, as Jekyll sees these as special dirs and does not copy them to the final destination.
 
