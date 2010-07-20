@@ -90,7 +90,7 @@ Real World Example: [github.com/pages/pages.github.com](http://github.com/pages/
 Custom Domains
 ==============
 
-If you or one of the collaborators on your repository have a paid account, GitHub Pages allows you to direct a domain name of your choice at your Page.
+GitHub Pages allows you to direct a domain name of your choice at your Page.
 
 Let's say you own the domain name [example.com](http://example.com). Furthermore, your GitHub username is "charlie" and you have published a User Page at [http://charlie.github.com/](http://charlie.github.com/). Now you'd like to load up [http://example.com/](http://example.com) in your browser and have it show the content from [http://charlie.github.com/](http://charlie.github.com/).
 
