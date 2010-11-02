@@ -22,7 +22,7 @@ Project Pages
 
 Let's say your GitHub username is "bob" and you have an existing repository named `fancypants`. If you create a new root branch named `gh-pages` in your repository, any content pushed there will be published to [http://bob.github.com/fancypants/](http://bob.github.com/fancypants/).
 
-In order to create a new root branch, first ensure that your working directory is clean by committing or stashing any changes. <span style="color: #a00;">The following operation will lose any uncommitted changes!</span>
+In order to create a new root branch, first ensure that your working directory is clean by committing or stashing any changes. <span style="color: #a00;">The following operation will lose any uncommitted files!  You might want to run this in a fresh clone of your repo.</span>
 
     $ cd /path/to/fancypants
     $ git symbolic-ref HEAD refs/heads/gh-pages
