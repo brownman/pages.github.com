@@ -25,9 +25,9 @@ Let's say your GitHub username is "bob" and you have an existing repository name
 In order to create a new root branch, first ensure that your working directory is clean by committing or stashing any changes. <span style="color: #a00;">The following operation will lose any uncommitted files!  You might want to run this in a fresh clone of your repo.</span>
 
     $ cd /path/to/fancypants
-    $ git checkout --orphan gh-pages
-
-If you receive an error, make sure you have git 1.7.2 or newer installed.
+    $ git symbolic-ref HEAD refs/heads/gh-pages
+    $ rm .git/index
+    $ git clean -fdx
 
 After running this you'll have an empty working directory (don't worry, your main repo is still on the `master` branch). Now you can create some content in this branch and push it to GitHub. For example:
 
