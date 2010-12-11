@@ -77,7 +77,7 @@ As of April 7, 2009, you can configure most Jekyll settings via your `_config.ym
 
 If your Jekyll site is not transforming properly after you push it to GitHub, it's useful to run the converter locally so you can see any parsing errors. In order to do this, you'll want to use the same version that we use.
 
-We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.7.0</span> and run it with the equivalent command:
+We currently use <span style="font-weight: bold; color: #0a0;">Jekyll 0.8.0</span> and run it with the equivalent command:
 
     jekyll --pygments --safe
 
